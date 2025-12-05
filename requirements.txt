@@ -1,5 +1,5 @@
 # --- Streamlit UI ---
-streamlit==1.35.0
+streamlit
 
 # --- LangChain Core (your versions preserved) ---
 langchain-core==0.2.11
