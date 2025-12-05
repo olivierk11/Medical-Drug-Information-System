@@ -1,20 +1,24 @@
 # --- Streamlit UI ---
-streamlit>=1.32.0
+streamlit==1.35.0
 
-# --- LangChain Core Packages
+# --- LangChain Core (your versions preserved) ---
 langchain-core==0.2.11
 langchain==0.2.6
-langchain-community
-langchain-openai
+langchain-community==0.2.6
+
+# --- FIX: Pin the module that Streamlit is failing to install ---
+langchain-openai==0.1.7
 
 # --- OpenAI SDK ---
-openai>=1.0.0
+openai==1.35.8
 
-# --- Embeddings / Tokenizer ---
-tiktoken>=0.5.2
-faiss-cpu>=1.7.4
-sentence-transformers>=2.2.2
+# --- Vector DB ---
+faiss-cpu==1.7.4
+
+# --- Text processing ---
+tiktoken==0.5.2
+sentence-transformers==2.2.2
 
 # --- Utilities ---
-numpy>=1.24.0
-python-dotenv>=1.0.0
+numpy==1.24.0
+python-dotenv==1.0.0
