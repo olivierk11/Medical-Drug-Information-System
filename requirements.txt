@@ -1,0 +1,20 @@
+# --- Streamlit UI ---
+streamlit>=1.32.0
+
+# --- LangChain Core Packages
+langchain-core==0.2.11
+langchain==0.2.6
+langchain-community
+langchain-openai
+
+# --- OpenAI SDK ---
+openai>=1.0.0
+
+# --- Embeddings / Tokenizer ---
+tiktoken>=0.5.2
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# --- Utilities ---
+numpy>=1.24.0
+python-dotenv>=1.0.0
